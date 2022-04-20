@@ -1,26 +1,90 @@
-# Face Recognition WebApp
+# face_recog_dlib_file dlib instalation error
+ ------------------------------
+ python 3.7 &
+ ubuntu 16.04
 
-This is the Face Recognition web Application developed Using dlib and face recognition packages.
-The Application can be used in the following three ways:
+ ------------------------------
 
-1. Processing and Recognize the static image from the System.
+ *1)* Assign root permission and update ubuntu first
 
-2. Doing Face Recognition on the Remote camera footage.
+ sudo su
 
-3. Doing Face Recognition on its own camera footage.
+ apt-get update
 
-# Setup Requirements
-- face_recognition
-- pygame
-- imutils
-- dlib
-- PIL
-- cv2
-- Flask
 
-# To Run
-Run hello1.py for running the Flask Application
+ *2)* Check your version & path for python & pip.
 
-# Demo Video
+ which python3
 
-https://www.youtube.com/watch?v=FSpsOhoXHXw
+
+
+ python3 -V
+
+
+
+ which pip3
+
+
+
+ pip3 -V
+
+
+ *3)*
+
+ pip3 install cmake
+
+
+ *4)*
+
+ apt-get install -y --fix-missing \
+
+     build-essential \
+
+     cmake \
+
+     gfortran \
+
+     git \
+
+     wget \
+
+     curl \
+
+     grapgicsmagick \
+
+     libgraphicsmagic-dev \
+
+     libatlas-dev \
+
+     libavcodec-dev \
+
+     libavformat-dev \
+
+     libgtk2.0-dev \
+
+     libjpeg-dev \
+
+     liblapack-dev \
+
+     libswscale-dev \
+
+     pkg-config \
+
+     software-properties-common \
+
+     zip
+
+
+ *6)*
+
+ apt-get install python3-dev
+
+
+ *5)*
+
+ pip3 install dlib
+
+
+ ------------------------------
+
+ ✅ Done
